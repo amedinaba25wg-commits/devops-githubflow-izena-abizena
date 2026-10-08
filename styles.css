@@ -144,3 +144,16 @@ footer {
 .contacto-form button:hover {
     background-color: #125f86;
 }
+
+
+/* RESPONSIVE */
+
+@media (max-width: 600px) {
+    nav li {
+        display: block;
+    }
+
+    .contacto-form {
+        max-width: 100%;
+    }
+}
