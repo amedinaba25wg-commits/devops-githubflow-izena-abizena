@@ -108,3 +108,39 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+
+/* CONTACTO */
+
+.contacto-info {
+    margin-bottom: 20px;
+}
+
+.contacto-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 600px;
+}
+
+.contacto-form input,
+.contacto-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.contacto-form button {
+    margin-top: 10px;
+    padding: 12px;
+    background-color: #1677a8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.contacto-form button:hover {
+    background-color: #125f86;
+}
